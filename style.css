@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    background-image: url(images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: "Fraunces", serif;
+}
+
+.text-center{
+    margin-top: 7rem;
+}
+
+.first-text{
+    max-width: 300px;
+    margin: 50px, auto;
+    
+}
+    .di1{
+        display: flex;
+    }
+    .at{
+        display: flex;
+    }
+    
+       
+
+
+@media (max-width:375px) {
+
+    .header-text{
+        font-size: 24px;
+    }
+    
+    header{
+        background-image: url(images/mobile/image-header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+}
